@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package circulo;
 
 import org.junit.jupiter.api.AfterEach;
@@ -18,42 +13,27 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class CirculitoTest {
     
-    /**
-     *
-     */
     public CirculitoTest() {
     }
     
-    /**
-     *
-     */
     @BeforeAll
     public static void setUpClass() {
     }
     
-    /**
-     *
-     */
     @AfterAll
     public static void tearDownClass() {
     }
-    
-    /**
-     *
-     */
+
     @BeforeEach
     public void setUp() {
     }
     
-    /**
-     *
-     */
     @AfterEach
     public void tearDown() {
     }
 
     /**
-     * Test of setCoordenadaX method, of class Circulito.
+     * Test del metodo setCoordenadaX de la clase Circulito.
      */
     @Test
     public void testSetCoordenadaX() {
@@ -65,7 +45,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of getCoordenadaX method, of class Circulito.
+     * Test del metodo getCoordenadaX de la clase Circulito.
      */
     @Test
     public void testGetCoordenadaX() {
@@ -78,7 +58,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of setCoordenadaY method, of class Circulito.
+     * Test del metodo setCoordenadaY de la clase Circulito.
      */
     @Test
     public void testSetCoordenadaY() {
@@ -90,7 +70,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of getCoordenadaY method, of class Circulito.
+     * Test del metodo getCoordenadaY de la clase Circulito.
      */
     @Test
     public void testGetCoordenadaY() {
@@ -103,7 +83,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of setRadio method, of class Circulito.
+     * Test del metodo setRadio de la clase Circulito.
      */
     @Test
     public void testSetRadio() {
@@ -114,7 +94,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of getRadio method, of class Circulito.
+     * Test del metodo getRadio de la clase Circulito.
      */
     @Test
     public void testGetRadio() {
@@ -130,7 +110,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of obtenerDiametro method, of class Circulito.
+     * Test del metodo obtenerDiametro de la clase Circulito.
      */
     @Test
     public void testObtenerDiametro() {
@@ -143,7 +123,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of obtenerCircunferencia method, of class Circulito.
+     * Test del metodo obtenerCircunferencia de la clase Circulito.
      */
     @Test
     public void testObtenerCircunferencia() {
@@ -156,7 +136,7 @@ public class CirculitoTest {
     }
 
     /**
-     * Test of obtenerAreaCirculo method, of class Circulito.
+     * Test del metodo obtenerAreaCirculo de la clase Circulito.
      */
     @Test
     public void testObtenerAreaCirculo() {
@@ -170,7 +150,7 @@ public class CirculitoTest {
 
 
     /**
-     * Test of trasladarCentro method, of class Circulito.
+     * Test del metodo trasladarCentro de la clase Circulito.
      */
     @Test
     public void testTrasladarCentro() {
@@ -178,7 +158,7 @@ public class CirculitoTest {
   Circulito instance = new Circulito();
         int resultx=instance.getCoordenadaX();
         int resulty=instance.getCoordenadaY();
-        instance.trasladarCentro(0, 0);
+        instance.trasladarCentro(5, 5);
         int resultnx = instance.getCoordenadaX();
         int resultny = instance.getCoordenadaY();
         assertEquals(resultx+5, resultnx);

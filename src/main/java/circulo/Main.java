@@ -8,10 +8,6 @@ import java.text.DecimalFormat;
  */
 public class Main {
 
-    /**
-     *
-     * @param args
-     */
     public static void main(String[] args) {
         Circulito circulo = new Circulito(37,43,2.5);
         String salida =

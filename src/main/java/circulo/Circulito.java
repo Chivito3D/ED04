@@ -2,13 +2,13 @@ package circulo;
 
 /**
  * Pruebas de refactorización en NetBeans con la clase Circulito
- *
- * @author profesor
+ * @author Ignacio Brea Lodeiro
  */
 public class Circulito {
 
     /**
-     *
+     * Constante LIMITERADIO que indica el valor mínimo que puede tener el radio.
+     * Como el radio no puede ser negativa, se le asigna el valor 0.0.
      */
     public static final double LIMITERADIO = 0.0;
 
@@ -17,16 +17,16 @@ public class Circulito {
     private double radio;
 
     /**
-     *
+     * Cosntructor vacio
      */
     public Circulito() {
     }
 
     /**
-     *
-     * @param valorX
-     * @param valorY
-     * @param valorRadio
+     * Constructor con todos los parametros
+     * @param valorX valor de la coordenada X
+     * @param valorY valor de la coordenada Y
+     * @param valorRadio valor del radio
      */
     public Circulito(int valorX, int valorY, double valorRadio) {
         coordenadaX = valorX;
@@ -52,7 +52,6 @@ public class Circulito {
 
     /**
      * Devuelve el valor de la longitud del radio.
-     *
      * @return la longitud del radio
      */
     public double getRadio() {
@@ -76,7 +75,8 @@ public class Circulito {
     }
 
     /**
-     * @param radio the radio to set
+     * Establece el radio del círculo.
+     * @param radio el radio del círculo
      */
     public void setRadio(double radio) {
         this.radio = (radio < LIMITERADIO ? LIMITERADIO : radio);
@@ -114,14 +114,13 @@ public class Circulito {
     /**
      * Obtiene una nueva posición del centro del círculo (y por lo tanto del
      * círculo), moviendo las coordenadas según lo indicado por parámetros.
-     *
-     * @param trasladarx Desplaza la coordenada 'x' el valor indicado. Valor
-     * positivo -> hacia la derecha. Valor negativo -> hacia la izquierda.
-     * @param trasladary Desplaza la coordenada 'y' el valor indicado. Valor
-     * positivo -> hacia arriba. Valor negativo -> hacia abajo.
+     * @param trasladarX Desplaza la coordenada 'x' el valor indicado. Valor
+     * positivo lo desplaza hacia la derecha. Valor negativo lo desplaza hacia la izquierda.
+     * @param trasladarY Desplaza la coordenada 'y' el valor indicado. Valor
+     * positivo lo desplaza hacia arriba. Valor negativo lo desplaza hacia abajo.
      */
     public void trasladarCentro(int trasladarX, int trasladarY) {
-        coordenadaX = coordenadaX + trasladarX;
-        coordenadaY = coordenadaY + trasladarY;
+        setCoordenadaX(getCoordenadaX() + trasladarX);
+        setCoordenadaY(getCoordenadaY() + trasladarY);
     }
 }
