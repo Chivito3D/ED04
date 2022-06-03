@@ -1,0 +1,50 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/chivi/Documents/DAM/Entornos de Desarrollo/UD04/ED04/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/chivi/Documents/DAM/Entornos de Desarrollo/UD04/ED04/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Circulo 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/chivi/Documents/DAM/Entornos de Desarrollo/UD04/ED04/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Circulo 1.0-SNAPSHOT API'
+circulo
+'C:/Users/chivi/Documents/DAM/Entornos de Desarrollo/UD04/ED04/src/main/java/circulo/Circulito.java'
+'C:/Users/chivi/Documents/DAM/Entornos de Desarrollo/UD04/ED04/src/main/java/circulo/Main.java'
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\src\main\java = 1653761497849
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\allclasses-index.html = 1654245225542
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\allclasses.html = 1654245225557
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\allpackages-index.html = 1654245225547
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\constant-values.html = 1654245225487
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\deprecated-list.html = 1654245225554
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\element-list = 1654245225468
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\help-doc.html = 1654245225566
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\index-all.html = 1654245225538
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\index.html = 1654245225562
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\member-search-index.js = 1654245225534
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\member-search-index.zip = 1654245225536
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\overview-tree.html = 1654245225504
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\package-search-index.js = 1654245225518
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\package-search-index.zip = 1654245225528
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\script.js = 1654245225571
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\search.js = 1654245225573
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\stylesheet.css = 1654245225569
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\type-search-index.js = 1654245225530
+C:\Users\chivi\Documents\DAM\Entornos de Desarrollo\UD04\ED04\target\site\apidocs\type-search-index.zip = 1654245225531
